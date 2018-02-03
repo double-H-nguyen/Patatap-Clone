@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--       Make website responsive on mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Patatap Clone</title>
+        <!--Paper.js-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.5/paper-full.min.js"></script>
+        <!--Howler.js-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.8/howler.js"></script>
+        <!--Font Awesome CSS-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!--CSS file (local)-->
+        <link rel="stylesheet" type="text/css" href="assets/css/circles.css">
+
+
+    </head>
+
+    <body>
+
+        <div id="overlay">
+            <div id="overlay_text">
+                <h2>Patatap (Clone)</h2>
+                <p>
+                    Press A - Z on your <i class="far fa-keyboard fa-lg"></i> to make a sound!
+                <p>
+            </div>
+        </div>
+
+        <canvas id="myCanvas" resize></canvas>
+
+        <!--JQuery-->
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        <!--JQuery UI-->
+        <script
+                src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+                integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+                crossorigin="anonymous"></script>
+        <!--JS (local)-->
+        <script type="text/paperscript" canvas="myCanvas" src="assets/js/circles.js"></script>
+    </body>   
+</html>
